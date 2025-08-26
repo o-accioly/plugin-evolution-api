@@ -1,6 +1,6 @@
 <?php
 
-namespace MauticPlugin\MauticEvolutionApiBundle\Form\Type;
+namespace MauticPlugin\MauticWhatsAppEvolutionBundle\Form\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\PasswordType;

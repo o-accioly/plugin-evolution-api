@@ -1,0 +1,27 @@
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache
+var/cache/
+var/logs/
+
+# Composer
+vendor/
+composer.lock
+
+# Node modules
+node_modules/
+
+# Build files
+dist/
+build/

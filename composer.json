@@ -1,25 +1,19 @@
 {
-    "name": "o-accioly/whatsapp-connector-plugin",
-    "description": "WhatsApp Connector plugin for Mautic",
-    "version": "1.0.0",
+    "name": "joaomaia/mautic-whatsapp-evolution-bundle",
+    "description": "Plugin to send Mautic campaigns to Whatsapp numbers through Evolution API",
     "type": "mautic-plugin",
-    "keywords": [
-        "mautic",
-        "plugin",
-        "integration",
-        "whatsapp",
-        "connector"
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "João Vitor Maia",
+            "email": "maia.tostring@gmail.com"
+        }
     ],
-    "extra": {
-        "install-directory-name": "MauticWhatsAppConnectorBundle"
-    },
     "minimum-stability": "dev",
     "require": {
-        "mautic/core-lib": "^5.0"
+        "mautic/core-lib": "^6.0"
     },
-    "autoload": {
-        "psr-4": {
-            "MauticPlugin\\MauticWhatsAppConnectorBundle\\": ""
-        }
+    "extra": {
+        "install-directory-name": "MauticWhatsAppEvolutionBundle"
     }
 }
