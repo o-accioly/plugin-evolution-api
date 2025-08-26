@@ -1,6 +1,7 @@
 {
     "name": "o-accioly/plugin-evolution-api",
     "description": "WhatsApp Evolution API plugin (MauticEvolutionApiBundle)",
+    "version": "1.0.0",
     "type": "mautic-plugin",
     "keywords": [
         "mautic",
@@ -14,8 +15,7 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "mautic/core-lib": "^5.0",
-        "symfony/form": "^6.0"
+        "mautic/core-lib": "^5.0"
     },
     "autoload": {
         "psr-4": {

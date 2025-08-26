@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'name'        => 'WhatsApp Evolution API',
-    'description' => 'Integração com a Evolution API para envio de mensagens WhatsApp.',
-    'version'     => '1.0',
-    'author'      => 'Gabriel Accioly',
+    'name'        => 'Evolution API',
+    'description' => 'Evolution API Integration',
+    'version'     => '1.0.0',
+    'author'      => 'Mautic Community',
 ];
