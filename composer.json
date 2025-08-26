@@ -1,0 +1,19 @@
+{
+    "name": "mautic/plugin-evolution-api",
+    "description": "WhatsApp Evolution API plugin (MauticEvolutionApiBundle)",
+    "type": "mautic-plugin",
+    "keywords": [
+        "mautic",
+        "plugin",
+        "integration",
+        "whatsapp",
+        "evolution-api"
+    ],
+    "extra": {
+        "install-directory-name": "MauticEvolutionApiBundle"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "mautic/core-lib": "^5.0"
+    }
+}
