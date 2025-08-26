@@ -13,8 +13,14 @@ return function (ContainerConfigurator $configurator): void {
         ->public();
 
     $excludes = [
+        'Api',
+        'Controller',
     ];
 
     $services->load('MauticPlugin\\MauticEvolutionApiBundle\\', '../')
         ->exclude('../{'.implode(',', array_merge(MauticCoreExtension::DEFAULT_EXCLUDES, $excludes)).'}');
+
+    // Explicitly register the integration with the proper Mautic tag
+    $services->set(MauticPlugin\\MauticEvolutionApiBundle\\Integration\\EvolutionApiIntegration::class)
+        ->tag('mautic.integration');
 };
