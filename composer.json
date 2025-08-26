@@ -11,7 +11,7 @@
         "connector"
     ],
     "extra": {
-        "install-directory-name": "MauticEvolutionApiBundle"
+        "install-directory-name": "MauticWhatsAppConnectorBundle"
     },
     "minimum-stability": "dev",
     "require": {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MauticPlugin\\MauticEvolutionApiBundle\\": ""
+            "MauticPlugin\\MauticWhatsAppConnectorBundle\\": ""
         }
     }
 }

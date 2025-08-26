@@ -1,8 +1,8 @@
 <?php
 
-namespace MauticPlugin\MauticEvolutionApiBundle\Api;
+namespace MauticPlugin\MauticWhatsAppConnectorBundle\Api;
 
-use MauticPlugin\MauticEvolutionApiBundle\Integration\WhatsAppConnectorIntegration;
+use MauticPlugin\MauticWhatsAppConnectorBundle\Integration\WhatsAppConnectorIntegration;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 use Symfony\Component\HttpClient\HttpClient;
 

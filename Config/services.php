@@ -15,6 +15,6 @@ return function (ContainerConfigurator $configurator): void {
     $excludes = [
     ];
 
-    $services->load('MauticPlugin\\MauticEvolutionApiBundle\\', '../')
+    $services->load('MauticPlugin\\MauticWhatsAppConnectorBundle\\', '../')
         ->exclude('../{'.implode(',', array_merge(MauticCoreExtension::DEFAULT_EXCLUDES, $excludes)).'}');
 };

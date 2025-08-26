@@ -9,7 +9,7 @@ return [
     'services' => [
         'integrations' => [
             'mautic.integration.whatsapp_connector' => [
-                'class'     => \MauticPlugin\MauticEvolutionApiBundle\Integration\WhatsAppConnectorIntegration::class,
+                'class'     => \MauticPlugin\MauticWhatsAppConnectorBundle\Integration\WhatsAppConnectorIntegration::class,
                 'arguments' => [
                     'event_dispatcher',
                     'mautic.helper.cache_storage',

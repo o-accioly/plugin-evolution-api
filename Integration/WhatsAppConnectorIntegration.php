@@ -1,6 +1,6 @@
 <?php
 
-namespace MauticPlugin\MauticEvolutionApiBundle\Integration;
+namespace MauticPlugin\MauticWhatsAppConnectorBundle\Integration;
 
 use Mautic\PluginBundle\Integration\AbstractIntegration;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
