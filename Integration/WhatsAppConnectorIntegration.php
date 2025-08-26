@@ -6,7 +6,7 @@ use Mautic\PluginBundle\Integration\AbstractIntegration;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 
-class EvolutionApiIntegration extends AbstractIntegration
+class WhatsAppConnectorIntegration extends AbstractIntegration
 {
     public function getName(): string
     {

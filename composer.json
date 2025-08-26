@@ -1,6 +1,6 @@
 {
-    "name": "o-accioly/plugin-evolution-api",
-    "description": "WhatsApp Evolution API plugin (MauticEvolutionApiBundle)",
+    "name": "o-accioly/whatsapp-connector-plugin",
+    "description": "WhatsApp Connector plugin for Mautic",
     "version": "1.0.0",
     "type": "mautic-plugin",
     "keywords": [
@@ -8,7 +8,7 @@
         "plugin",
         "integration",
         "whatsapp",
-        "evolution-api"
+        "connector"
     ],
     "extra": {
         "install-directory-name": "MauticEvolutionApiBundle"

@@ -1,15 +1,15 @@
 <?php
 
 return [
-    'name'        => 'Evolution API',
-    'description' => 'Evolution API Integration',
+    'name'        => 'WhatsApp Connector',
+    'description' => 'WhatsApp messaging integration for Mautic',
     'version'     => '1.0',
     'author'      => 'Mautic Community',
 
     'services' => [
         'integrations' => [
-            'mautic.integration.accioly_evolution' => [
-                'class'     => \MauticPlugin\MauticEvolutionApiBundle\Integration\EvolutionApiIntegration::class,
+            'mautic.integration.whatsapp_connector' => [
+                'class'     => \MauticPlugin\MauticEvolutionApiBundle\Integration\WhatsAppConnectorIntegration::class,
                 'arguments' => [
                     'event_dispatcher',
                     'mautic.helper.cache_storage',

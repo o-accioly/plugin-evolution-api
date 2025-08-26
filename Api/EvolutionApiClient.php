@@ -2,16 +2,16 @@
 
 namespace MauticPlugin\MauticEvolutionApiBundle\Api;
 
-use MauticPlugin\MauticEvolutionApiBundle\Integration\EvolutionApiIntegration;
+use MauticPlugin\MauticEvolutionApiBundle\Integration\WhatsAppConnectorIntegration;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 use Symfony\Component\HttpClient\HttpClient;
 
 class EvolutionApiClient
 {
-    private EvolutionApiIntegration $integration;
+    private WhatsAppConnectorIntegration $integration;
     private HttpClientInterface $httpClient;
 
-    public function __construct(EvolutionApiIntegration $integration, ?HttpClientInterface $httpClient = null)
+    public function __construct(WhatsAppConnectorIntegration $integration, ?HttpClientInterface $httpClient = null)
     {
         $this->integration = $integration;
         $this->httpClient  = $httpClient ?: HttpClient::create();
