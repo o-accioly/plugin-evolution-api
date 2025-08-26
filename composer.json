@@ -1,5 +1,5 @@
 {
-    "name": "mautic/plugin-evolution-api",
+    "name": "o-accioly/plugin-evolution-api",
     "description": "WhatsApp Evolution API plugin (MauticEvolutionApiBundle)",
     "type": "mautic-plugin",
     "keywords": [

@@ -19,7 +19,8 @@ class EvolutionApiIntegration extends AbstractIntegration
 
     public function getAuthenticationType(): string
     {
-        return 'api';
+        // Use 'key' so Mautic renders the Keys tab with required fields
+        return 'key';
     }
 
     /**
