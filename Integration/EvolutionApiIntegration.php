@@ -10,7 +10,7 @@ class EvolutionApiIntegration extends AbstractIntegration
 {
     public function getName(): string
     {
-        return 'evolutionapi';
+        return 'accioly_evolution';
     }
 
     public function getDisplayName(): string
